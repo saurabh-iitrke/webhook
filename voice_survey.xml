@@ -1,4 +1,4 @@
 <Response>
   <Speak> Hi, This is a test voice survey. Please leave feedback after the beep. Press any key when done. </Speak>
-  <Record action="https://gist.githubusercontent.com/saurabh-plivo/636077d9f017fbeb02c794a721f41649/raw/eeddfd0f816de644d0bf0d743b66b30f5a750c38/record.xml" method="GET" fileFormat="mp3" maxLength="120" redirect="false" finishOnKey="*#1234567890" transcriptionType="auto" transcriptionUrl="http://54.183.202.20/transcript-webhook" transcriptionMethod="GET"/>
+  <Record action="https://gist.githubusercontent.com/saurabh-plivo/636077d9f017fbeb02c794a721f41649/raw/eeddfd0f816de644d0bf0d743b66b30f5a750c38/record.xml" method="GET" fileFormat="mp3" maxLength="120" redirect="false" finishOnKey="*#1234567890" transcriptionType="hybrid" transcriptionUrl="http://54.183.202.20/transcript-webhook" transcriptionMethod="GET"/>
 </Response>
